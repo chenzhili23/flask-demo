@@ -42,12 +42,12 @@ jobs:
       - name: Trigger CI
         uses: InformaticsMatters/trigger-ci-action@1.0.1
         with:
-          ci-owner: pyfs
+          ci-owner: seguilihailong
           ci-repository: flask-demo-kustomize
           ci-ref: refs/heads/master
           ci-user: pyfs
           ci-user-token: ${{ secrets.CI_TOKEN }}
-          ci-name: CI
+          ci-name: seguilihailong
           ci-inputs: >-
             image=${{ secrets.USERNAME }}/flask-demo
             sha-tag=${{ github.sha }}
