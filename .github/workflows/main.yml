@@ -45,7 +45,7 @@ jobs:
           ci-owner: seguilihailong
           ci-repository: flask-demo-kustomize
           ci-ref: refs/heads/master
-          ci-user: pyfs
+          ci-user: seguilihailong
           ci-user-token: ${{ secrets.CI_TOKEN }}
           ci-name: seguilihailong
           ci-inputs: >-
